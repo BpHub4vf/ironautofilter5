@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/IronmanHUB4VF/Auto-Filter-V5-Without-UrlShortner
+  git clone https://github.com/BpHub4vf/ironautofilter5
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Auto-Filter-V5-Without-UrlShortner
